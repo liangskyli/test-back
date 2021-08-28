@@ -1,0 +1,30 @@
+{
+  "name": "package-test",
+  "version": "0.0.1",
+  "description": "test",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "main": "build/lib/index.js",
+  "module": "build/es/index.js",
+  "types": "build/lib/index.d.ts",
+  "files": [
+    "build/lib",
+    "build/es"
+  ],
+  "scripts": {
+    "build:ts": "tsc --outDir build/lib & tsc -m esnext --outDir build/es",
+    "build": "npm run clean && npm run build:ts && node ./scripts/compile.copy.js",
+    "clean": "gts clean",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "umi": "^3.5.17"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "gts": "^3.0.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^4.3.5"
+  }
+}
