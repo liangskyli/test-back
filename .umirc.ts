@@ -1,8 +1,8 @@
 
 export default {
-  fastRefresh: {},
+  /*fastRefresh: {},
   mfsu: { production: { output: '.mfsu-pro' } },
-  extraBabelPlugins: [['import', { libraryName: 'antd', style: true }]],
+  extraBabelPlugins: [['import', { libraryName: 'antd', style: true }]],*/
 }
 
 
