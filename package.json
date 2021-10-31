@@ -3,10 +3,11 @@
     "start": "umi dev",
     "mock": "node -r ts-node/register src/index.ts",
     "mock2": "node -r ts-node/register src/server.js",
+    "mock-cli": "mock-server -p 9000",
     "update:deps": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "@liangsky/mock": "^0.0.1",
+    "@liangsky/mock": "^0.1.1",
     "antd": "^4.16.13",
     "package-test": "file:package-test",
     "umi": "^3.5.17"
