@@ -1,3 +1,3 @@
-import mockServer from '@liangsky/mock';
+import mockServer from '@liangskyli/mock';
 
 mockServer();

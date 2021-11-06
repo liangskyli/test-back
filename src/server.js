@@ -1,3 +1,3 @@
-const mockServer =require('@liangsky/mock').default;
+const mockServer =require('@liangskyli/mock').default;
 
 mockServer();

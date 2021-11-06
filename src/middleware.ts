@@ -1,6 +1,6 @@
 // @ts-ignore
 import express from 'express';
-import { getMiddleware } from '@liangsky/mock';
+import { getMiddleware } from '@liangskyli/mock';
 
 const app = express();
 

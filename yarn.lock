@@ -97,10 +97,10 @@
   resolved "https://registry.nlark.com/@ctrl/tinycolor/download/@ctrl/tinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
   integrity sha1-w8WuVDyJfKqcKmhjC+01W+X5mQ8=
 
-"@liangsky/mock@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/@liangsky/mock/-/mock-0.2.1.tgz#ef94f9aa31137958e11b3678adfda25a2963999a"
-  integrity sha512-wm/QSdOabN61DIN9AC931nt/6iJpm65yRk2Ng7oZFp95VdEy8k8CCLJu07Am6IQJ51rqe58zPTp47TX0cBZ83A==
+"@liangskyli/mock@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.npmmirror.com/@liangskyli/mock/download/@liangskyli/mock-0.2.2.tgz#1dd4124e74dbb6c61db9a73ba02dfcaf83c6bf03"
+  integrity sha1-HdQSTnTbtsYduac7oC38r4PGvwM=
   dependencies:
     commander "^8.3.0"
     cross-spawn "^7.0.3"
