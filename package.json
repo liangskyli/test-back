@@ -4,16 +4,18 @@
     "mock": "node -r ts-node/register src/index.ts",
     "mock2": "node -r ts-node/register src/server.js",
     "mock-cli": "mock-server -p 9000",
+    "mock:middleware": "node -r ts-node/register src/middleware.ts",
     "update:deps": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "@liangsky/mock": "^0.1.1",
+    "@liangsky/mock": "^0.2.1",
     "antd": "^4.16.13",
     "package-test": "file:package-test",
     "umi": "^3.5.17"
   },
   "devDependencies": {
     "babel-plugin-import": "^1.13.3",
+    "express": "^4.17.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   }
