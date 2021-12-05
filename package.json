@@ -5,10 +5,12 @@
     "mock2": "node -r ts-node/register src/server.js",
     "mock-cli": "mock-server -c ./src/mock.config.ts",
     "mock:middleware": "node -r ts-node/register src/middleware.ts",
+    "grpc-mock-code-gen-cli": "grpc-mock code-gen -c ./src/mock.config.cli.ts",
+    "grpc-mock-server-cli": "grpc-mock server-start -c ./src/mock.config.cli.ts",
     "update:deps": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "@liangskyli/mock": "^0.4.0",
+    "@liangskyli/mock": "^0.5.0-beta.1",
     "antd": "^4.16.13",
     "package-test": "file:package-test",
     "umi": "^3.5.17"

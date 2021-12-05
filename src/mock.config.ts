@@ -2,6 +2,7 @@ import path from 'path';
 
 export default {
   mockDir: path.join(__dirname, '../'),
+  port: 8002,
   socketConfig: {
     enable: true,
     opts: {
@@ -10,7 +11,7 @@ export default {
         origin: ['http://localhost:63342'],
       },
     },
-    //mockControllerUrl: 'mock/socket/sock.ts',
-    mockControllerUrl: 'mock/socket/sock2.js',
+    mockControllerUrl: 'mock/socket/sock.ts',
+    //mockControllerUrl: 'mock/socket/sock2.js',
   },
 };

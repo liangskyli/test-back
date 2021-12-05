@@ -4,6 +4,7 @@ import path from "path";
 //mockServer();
 mockServer({
     mockDir: path.join(__dirname, '../'),
+    port: 8002,
     exclude: ['mock/b.ts'],
     socketConfig: {
         enable: true,
