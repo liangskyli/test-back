@@ -108,10 +108,10 @@
     protobufjs "^6.10.0"
     yargs "^16.1.1"
 
-"@liangskyli/mock@^0.5.0-beta.2":
-  version "0.5.0-beta.2"
-  resolved "https://registry.npmjs.org/@liangskyli/mock/-/mock-0.5.0-beta.2.tgz#1b5bd71a1918aa859ba2a0c3685a543fa699fd92"
-  integrity sha512-huHWwwwSAhDF53FOybGewJcgXyChwkvKbwHslt/uXeVBlVJ7dFEN3mzmHgeZWHPXhQKNgUTBjkz6b7vj2+3BLA==
+"@liangskyli/mock@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/@liangskyli/mock/-/mock-0.5.0.tgz#74807a9fcfe205400bc7e336f0925e433b3be91c"
+  integrity sha512-2/VYt8jeFnnpVHYqCkmqizz8dmxDezRCxal7WlvYO7QrJnT6a346t5Z3GXkbMtuzAin6i9UN9pS1prq1/SVw3A==
   dependencies:
     "@grpc/proto-loader" "^0.6.7"
     "@types/fs-extra" "^9.0.13"
