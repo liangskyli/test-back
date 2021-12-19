@@ -10,7 +10,7 @@
     "update:deps": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "@liangskyli/mock": "^0.5.0",
+    "@liangskyli/mock": "^0.6.0",
     "antd": "^4.16.13",
     "package-test": "file:package-test",
     "umi": "^3.5.17"
