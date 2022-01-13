@@ -1,4 +1,4 @@
-import type { ConfigFileOptionsCLI } from '@liangskyli/mock';
+import type { ConfigFileOptionsCLI } from '@liangskyli/grpc-mock';
 
 const config: ConfigFileOptionsCLI = {
   rootPath: {

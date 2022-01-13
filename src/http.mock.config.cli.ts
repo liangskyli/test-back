@@ -1,4 +1,4 @@
-import type { IGenMockDataOpts } from '@liangskyli/mock';
+import type { IGenMockDataOpts } from '@liangskyli/http-mock-gen';
 
 const config: IGenMockDataOpts = {
   mockDir: './genHttpMock',
