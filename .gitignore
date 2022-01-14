@@ -17,3 +17,4 @@
 
 /grpc-mock/
 /src/openapi/openapiv3.json
+/genHttpMock/

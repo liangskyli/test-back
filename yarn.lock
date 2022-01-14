@@ -136,13 +136,13 @@
     protobufjs "^6.10.0"
     yargs "^16.2.0"
 
-"@liangskyli/grpc-mock@^0.8.0-beta.0":
-  version "0.8.0-beta.0"
-  resolved "https://registry.npmjs.org/@liangskyli/grpc-mock/-/grpc-mock-0.8.0-beta.0.tgz#f33eb5581140c51554c34e524c082343939a9117"
-  integrity sha512-lRU/dPdgELs9EuwaOhzAio8j/zCylGCLUoLSBS1G2ihX5UhD9EN0UnGqMO8U2EKUgvUOS5cU47FEe6+mybW+zw==
+"@liangskyli/grpc-mock@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/@liangskyli/grpc-mock/-/grpc-mock-0.8.0.tgz#42cd35ddab36a956b5356d31fee1eef2efe6d681"
+  integrity sha512-py30aSx7ZDu5ufqRXPTQ5JG6k3A2cTXbXbgogeRYkcGTZXMj1LsS+7x3ZgtuMgNjqigPIfI1sLtoVUvbiKxKVw==
   dependencies:
     "@grpc/proto-loader" "^0.6.9"
-    "@liangskyli/utils" "^0.8.0-beta.0"
+    "@liangskyli/utils" "^0.8.0"
     "@types/fs-extra" "^9.0.13"
     commander "^8.3.0"
     cross-spawn "^7.0.3"
@@ -153,12 +153,12 @@
   optionalDependencies:
     grpc "^1.24.11"
 
-"@liangskyli/http-mock-gen@^0.8.0-beta.0":
-  version "0.8.0-beta.0"
-  resolved "https://registry.npmjs.org/@liangskyli/http-mock-gen/-/http-mock-gen-0.8.0-beta.0.tgz#c02bf4d36a10a96d16cc466bd9d4c5f0cad3bc8d"
-  integrity sha512-D6B6DG1asoNhF5uVP1Q/1uTfC10hL1HWoiO/zo7RVTdxXseWQT9uVSWbFxzXZAJH5yZzyHsIbXMdYeESL5WmyQ==
+"@liangskyli/http-mock-gen@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/@liangskyli/http-mock-gen/-/http-mock-gen-0.8.0.tgz#28d2c5d663f40728716ecc38a9e8c5e80b8175bc"
+  integrity sha512-w41QWKoLvuCGfdbUgtfnPYBNxXIaIDV3G5p9GKoikhG9RaAg9P44BJcvUFo39uIxOHSIcDlfXiqNDAqd7SDhZw==
   dependencies:
-    "@liangskyli/utils" "^0.8.0-beta.0"
+    "@liangskyli/utils" "^0.8.0"
     "@types/fs-extra" "^9.0.13"
     commander "^8.3.0"
     cross-spawn "^7.0.3"
@@ -167,12 +167,12 @@
     openapi-typescript "^4.5.0"
     typescript-json-schema "^0.52.0"
 
-"@liangskyli/mock@^0.8.0-beta.0":
-  version "0.8.0-beta.0"
-  resolved "https://registry.npmjs.org/@liangskyli/mock/-/mock-0.8.0-beta.0.tgz#a80907813bf016f27151ffa3e11f738754417945"
-  integrity sha512-qHxLIFTurTDSGZFUN71qLeETznCp2pR2gBUHBn0hzlJ4vSZfCeqLCZKjl17oOMpFOcaqXnTb9204tKM+mh+/Vg==
+"@liangskyli/mock@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/@liangskyli/mock/-/mock-0.8.0.tgz#c0681b7373787154515dd6a8975add0a765f7262"
+  integrity sha512-dePdKgdBsoGHOpseQe42p68Dw+tEmJDL5/4u3zv7RTQB4tqt3sZ54uVTkdWeryohD8jmXibH7pgD83/8P3GKTw==
   dependencies:
-    "@liangskyli/utils" "^0.8.0-beta.0"
+    "@liangskyli/utils" "^0.8.0"
     "@types/fs-extra" "^9.0.13"
     "@umijs/core" "^3.5.20"
     "@umijs/server" "^3.5.20"
@@ -183,10 +183,10 @@
     lodash "^4.17.21"
     socket.io "^4.4.1"
 
-"@liangskyli/utils@^0.8.0-beta.0":
-  version "0.8.0-beta.0"
-  resolved "https://registry.npmjs.org/@liangskyli/utils/-/utils-0.8.0-beta.0.tgz#76edb7bfc7a92d95c4f43b066f1468621f748df4"
-  integrity sha512-vgBWowRFS9o+Rp9K5V9EW4hnvw5mPIs2II+8qI4LcrPlQjVJVaIJSVBr+wRKk2tNB+wQH76TC8cV3PMGJHJ21Q==
+"@liangskyli/utils@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/@liangskyli/utils/-/utils-0.8.0.tgz#1929a7143c6c858a3157c4d22c9f7528838615ab"
+  integrity sha512-Btkzmns8xWbybFip6y9HiqjVufdrav+UHVD2R7VcNJ1MivSVd82LgpgZHfbJEEsvNVSZq1f5tfwEq0tgqIMl+Q==
   dependencies:
     "@types/prettier" "^2.4.2"
     prettier "^2.5.1"
