@@ -1,0 +1,7 @@
+# 使用packer构建镜像、部署测试环境  https://ci-cd.myscrm.cn/doc/#/gitlab-ci
+stages:
+  - pack
+
+include:
+  - project: 'ci-cd/gitlab-ci-public'
+    file: '/.packer-template.yml'
