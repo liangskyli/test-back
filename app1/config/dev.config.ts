@@ -13,6 +13,9 @@ if (process.env.NODE_ENV === 'development') {
     devServer: {
       port: (packageConfig as any).devPort,
       host: (packageConfig as any).devHost,
+      headers:{
+        "Access-Control-Allow-Origin":"*"
+      }
     },
     proxy: {
       '/index.php': {
@@ -20,6 +23,11 @@ if (process.env.NODE_ENV === 'development') {
         changeOrigin: true,
         secure: false,
       },
+      /*'/sub-demo1': {
+        target: 'http://localhost:8001',
+        changeOrigin: true,
+        secure: false,
+      },*/
     },
   };
 }

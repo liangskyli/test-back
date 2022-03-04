@@ -1,3 +1,4 @@
+import { history } from 'umi';
 import styles from './index.less';
 
 const IndexPage = () => {
@@ -6,6 +7,7 @@ const IndexPage = () => {
   };
   const onClick2 = () => {
     console.log('index22 click');
+    history.push('/login');
   };
   return (
     <div id="wrap" className="fz32">

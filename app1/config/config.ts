@@ -8,7 +8,9 @@ import defaultSettings from './defaultSettings';
 import px2rem from 'postcss-plugin-px2rem';
 import { IConfigFromPlugins } from '@@/core/pluginConfig';
 
-const routerBase = `/sub-demo1/`;
+const routerBase = `/`;
+//const routerBase = `/sub-demo1/`;
+
 const publicPath = routerBase;//process.env.NODE_ENV === 'production' ? setting.getPublicPath() : routerBase;
 
 // ref: https://umijs.org/config/
@@ -17,13 +19,24 @@ const config: IConfigFromPlugins | IConfig = {
     master: {
       // 注册子应用信息
       apps: [
-        {
+        /*{
           name: 'sub-demo2', // 唯一 id
-          entry: '//localhost:7001/sub-demo2/index', // html entry
+          entry: '//localhost:7001/sub-demo2/', // html entry
+        },*/
+        {
+          name: 'sub-zxkp-h5', // 唯一 id
+          entry: 'http://localhost:8001/sub-zxkp-h5/', // html entry
         },
       ],
+      /*routes: [
+        {
+          path: '/sub-demo2',
+          microApp:'sub-demo2',
+        },
+      ],*/
       sandbox:{
-        experimentalStyleIsolation:true,
+        strictStyleIsolation: true,
+        //experimentalStyleIsolation:true,
       }
     },
   },

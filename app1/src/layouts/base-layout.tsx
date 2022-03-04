@@ -12,10 +12,12 @@ const BasicLayout: FC<IBasicLayout> = (props) => {
     children,
     location: { pathname },
   } = props;
-
+const onClick = () => {
+  console.log('layout1 click');
+};
   return (
     <div key={pathname}>
-      <div className={styles.layout}>layout</div>
+      <div className={styles.layout} onClick={onClick}>layout1</div>
       <div className={styles.app2}>
         {children}
       </div>
