@@ -8,7 +8,7 @@ export default [
       /*{ path: '/sub-demo2', microApp: 'sub-demo2'},
       { path: '/sub-zxkp-h5', microApp: 'sub-zxkp-h5'},*/
       /*{ path: '/sub-demo1/index', microApp: 'sub-zxkp-h5'},*/
-      { path: '/vr-trade-zxkp', microApp: 'sub-zxkp-h5'},
+      /*{ path: '/vr-trade-zxkp', microApp: 'sub-zxkp-h5'},*/
       { path: '*', exact: true, component: '@/pages/404' },
     ],
   },

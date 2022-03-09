@@ -15,30 +15,37 @@ const publicPath = routerBase;//process.env.NODE_ENV === 'production' ? setting.
 
 // ref: https://umijs.org/config/
 const config: IConfigFromPlugins | IConfig = {
-  qiankun: {
+  qiankun:{
+    master:{}
+  },
+  /*qiankun: {
     master: {
       // 注册子应用信息
       apps: [
-        /*{
+        /!*{
           name: 'sub-demo2', // 唯一 id
           entry: '//localhost:7001/sub-demo2/', // html entry
-        },*/
+        },*!/
         {
           name: 'sub-zxkp-h5', // 唯一 id
           entry: 'http://localhost:8001/sub-zxkp-h5/', // html entry
         },
       ],
-      /*routes: [
+      /!*routes: [
         {
           path: '/sub-demo2',
           microApp:'sub-demo2',
         },
-      ],*/
+      ],*!/
       sandbox:{
         strictStyleIsolation: true,
         //experimentalStyleIsolation:true,
       },
-      /*fetch: async (url:any, ...args:any)=> {
+      getTemplate: (tpl: string) => {
+        console.log('ddddddddd');
+        return tpl.replace('<script type="text/javascript" src="//res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>', '');
+      },
+      /!*fetch: async (url:any, ...args:any)=> {
         console.log(url);
         if ((url as string).indexOf('//res.wx.qq.com/open/js/jweixin-1.6.0.js')>-1) {
           return {
@@ -49,9 +56,9 @@ const config: IConfigFromPlugins | IConfig = {
         }
 
         return window.fetch(url, ...args);
-      },*/
+      },*!/
     },
-  },
+  },*/
   ...devConfig.config,
   ...defaultSettings,
   ...mfsu.config,
