@@ -2,7 +2,7 @@ import { IConfig } from '@umijs/types';
 import SentryPlugin from '@sentry/webpack-plugin';
 
 let config: IConfig = {
-  mfsu: false,//{}, // dev开发优化二次构建时间
+  mfsu: {}, // dev开发优化二次构建时间
   chainWebpack: function (config, { env }) {
     // 处理包js-base64在webpack5编译问题
     config.module

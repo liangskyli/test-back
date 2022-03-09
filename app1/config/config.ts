@@ -37,7 +37,19 @@ const config: IConfigFromPlugins | IConfig = {
       sandbox:{
         strictStyleIsolation: true,
         //experimentalStyleIsolation:true,
-      }
+      },
+      /*fetch: async (url:any, ...args:any)=> {
+        console.log(url);
+        if ((url as string).indexOf('//res.wx.qq.com/open/js/jweixin-1.6.0.js')>-1) {
+          return {
+            async text() {
+              return '';
+            },
+          };
+        }
+
+        return window.fetch(url, ...args);
+      },*/
     },
   },
   ...devConfig.config,
