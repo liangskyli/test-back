@@ -3,7 +3,7 @@
   "name": "demo1",
   "config": {
     "devHost": "0.0.0.0",
-    "devPort": 6001,
+    "devPort": 4001,
     "grayActivityIds": [],
     "grayUrl": "https://ztcwx.myscrm.cn/sub-zxkp-h5/index"
   },

@@ -10,6 +10,8 @@ export default [
       { path: '/login', component: '@/pages/login/login', title: '登录' },
       /*{ path: '/sub-demo1/login', component: '@/pages/login/login', title: '登录' },*/
       /*{ path: '/sub-demo2/login', component: '@/pages/login/login', title: '登录' },*/
+      // qiankun子应用 vr-3d
+      { path: '/vr-trade-zxkp/vr-3d', component: '@/pages/index/index', title: '' },
       { path: '*', exact: true, component: '@/pages/404' },
     ],
   },

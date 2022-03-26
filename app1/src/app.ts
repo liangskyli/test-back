@@ -2,7 +2,7 @@ export const qiankun = Promise.resolve({
   apps: [
     {
       name: 'sub-zxkp-h5', // 唯一 id
-      entry: 'http://localhost:8001/sub-zxkp-h5/', // html entry
+      entry: 'http://localhost:5001/sub-zxkp-h5/', // html entry
     },
   ],
 }).then(({ apps }) => {
@@ -10,7 +10,7 @@ export const qiankun = Promise.resolve({
     // 注册子应用信息
     apps,
     // 支持更多的其他配置，详细看这里 https://qiankun.umijs.org/zh/api/#start-opts
-    routes: [{ path: '/vr-trade-zxkp', microApp: 'sub-zxkp-h5' }],
+    routes: [{ path: '/', microApp: 'sub-zxkp-h5' }],
     sandbox: {
       strictStyleIsolation: true,
     },
