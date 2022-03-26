@@ -13,9 +13,10 @@ const publicPath = routerBase;//process.env.NODE_ENV === 'production' ? setting.
 
 // ref: https://umijs.org/config/
 const config: IConfigFromPlugins | IConfig = {
-  qiankun: {
+  /*qiankun: {
     slave: {},
-  },
+  },*/
+  mountElementId: 'root2',
   ...devConfig.config,
   ...defaultSettings,
   ...mfsu.config,

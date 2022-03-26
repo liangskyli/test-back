@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === 'development') {
         secure: false,
       },
       '/sub-zxkp-h5/mf-': {
-        target: 'http://localhost:8001',
+        target: 'http://localhost:5001',
         changeOrigin: true,
         secure: false,
       },
