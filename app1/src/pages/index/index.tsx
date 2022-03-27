@@ -1,21 +1,15 @@
 //import { MicroApp, MicroAppWithMemoHistory } from 'umi';
 //import style from './index.less';
+//import { MicroApp }  from '@micro-zoe/micro-app';
 
 const IndexPage = () => {
-  const onClick = () => {
-    console.log('index1 click');
-  };
   return (
-    <div id="wrap" className="fz32">
-      <div onClick={onClick}>index1</div>
-      {/*<MicroApp name="sub-demo2" className={style.app2} />*/}
-      {/*<MicroApp name="sub-zxkp-h5" base="/sub-zxkp-h5" className={style.app2} />*/}
-      {/*<MicroAppWithMemoHistory
-        name="sub-demo2"
-        url="/index"
-        current={2}
-        pageSize={5}
-      />*/}
+    <div>
+      <micro-app
+        name="sub-zxkp-h5"
+        url="http://localhost:5001/sub-zxkp-h5/"
+        baseroute="/vr-trade-zxkp/vr-3d"
+      />
     </div>
   );
 };

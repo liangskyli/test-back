@@ -1544,6 +1544,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@micro-zoe/micro-app@^0.8.5":
+  version "0.8.5"
+  resolved "https://registry.npmmirror.com/@micro-zoe/micro-app/-/micro-app-0.8.5.tgz#44883941fbc46cd68d5ece261dc353c9525efb4e"
+  integrity sha512-PFnoAxepT/njBEP1fkavvxVoyWsEexcq/BGq7rcW+3kavOHwrm3yNpDlsLEkVT3FVGA11tCWe0TmbJMsFYTTSg==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmmirror.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"

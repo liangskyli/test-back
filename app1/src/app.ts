@@ -79,6 +79,51 @@ start({
    },
 });*/
 
+import microApp from '@micro-zoe/micro-app';
+
+microApp.start({ shadowDOM: true,
+  fetch: (url, options) => {
+    if (url.indexOf('//res.wx.qq.com/open/js/jweixin-1.6.0.js') > -1){
+      // 删除 http://localhost:3001/error.js 的内容
+      return Promise.resolve('');
+    }
+
+    const config = {
+      // fetch 默认不带cookie，如果需要添加cookie需要配置credentials
+      //credentials: 'include', // 请求时带上cookie
+    };
+
+    // @ts-ignore
+    return window.fetch(url, Object.assign(options, config)).then((res) => {
+      return res.text();
+    });
+  },
+});
+microApp.setData('sub-zxkp-h5', {
+  getState: () => {
+    return {
+      safeArea: {
+        // 渲染安全区域
+        top: 70,
+        bottom: 50,
+        left: 0,
+        right: 0,
+      },
+      level: 'building',
+      buildingId: 'buildingId211',
+    };
+  },
+  observer: {
+    addEventListener: (handle: string, e: any) => {
+      console.log('addEventListener:', handle, e);
+    },
+    dispatchEvent: (handle: string, payload?: any) => {
+      console.log('dispatchEvent:', handle, payload);
+    },
+  },
+});
+
+
 export const dva = {
   config: {
     onError(err: ErrorEvent) {

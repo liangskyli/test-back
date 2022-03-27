@@ -3,7 +3,9 @@ import styles from './index.less';
 
 const IndexPage = () => {
   const onClick = () => {
-    console.log('index2 click');
+    // 返回基座下发的data数据
+    const data = window.microApp.getData() ;
+    console.log('index2 click',data);
   };
   const onClick2 = () => {
     console.log('index22 click');

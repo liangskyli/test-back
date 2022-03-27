@@ -3,7 +3,7 @@ export default [
     path: '/',
     component: '../layouts/index',
     routes: [
-      {path: 'vr-trade-zxkp/vr-3d',component: '@/pages/empty'},
+      { path: 'vr-trade-zxkp/vr-3d',component: '@/pages/index/index'},
       { path: '/index', component: '@/pages/index/index', title: '活动首页' },
       { path: '/login', component: '@/pages/login/login', title: '登录' },
       /*{ path: '/sub-demo2', microApp: 'sub-demo2'},
