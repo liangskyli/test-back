@@ -19,5 +19,6 @@ const config: IGenMockDataOpts = {
     }
     return value;
   },
+  //requestFilePath: '../../../http/request',
 };
 export default config;
