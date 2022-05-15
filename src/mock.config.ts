@@ -1,7 +1,7 @@
 import path from 'path';
 
 export default {
-  mockDir: path.join(__dirname, '../'),
+  mockDir: path.join(__dirname, '../genHttpMock/'),
   port: 8002,
   socketConfig: {
     enable: true,
