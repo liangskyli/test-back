@@ -19,3 +19,4 @@
 /src/openapi/openapiv3.json
 /genHttpMock/
 /gen-openapi-dir/
+/gen-ts/
