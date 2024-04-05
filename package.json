@@ -13,7 +13,9 @@
     "update:deps": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
+    "@liangskyli/axios-request": "^0.1.0",
     "antd": "^5.4.7",
+    "axios": "^1.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "routing-controllers": "^0.9.0",

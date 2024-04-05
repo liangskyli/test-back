@@ -1308,6 +1308,13 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@liangskyli/axios-request@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/@liangskyli/axios-request/-/axios-request-0.1.0.tgz#73639fa0c2275f6a004e7e827680197acecb68e1"
+  integrity sha512-2zO6FrqN63H83bTn9I+ARmtUYS9NffEEJHZus7dW1Qx93peVk7P9+UMsU28vTdUioGbAjr5qC3ogXSta+RqqOg==
+  dependencies:
+    "@liangskyli/request" "0.1.0"
+
 "@liangskyli/grpc-mock@^4.0.0":
   version "4.0.0"
   resolved "https://registry.npmmirror.com/@liangskyli/grpc-mock/-/grpc-mock-4.0.0.tgz#5d210177384424b373e16f3db6c218f0cb50abc9"
@@ -1369,6 +1376,13 @@
     openapi-typescript "^6.7.4"
     swagger2openapi "^7.0.8"
     typescript-json-schema "^0.63.0"
+
+"@liangskyli/request@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/@liangskyli/request/-/request-0.1.0.tgz#211c2d8e6eca88ae3b04286e69160eaf1ce0f019"
+  integrity sha512-Z4My5Ad3vUsdT4pwFOjiNsrePFut1wYU1MoEM7Nl+VQMgzMmO6Xw3FXNVMe/AU2KPh56THt98ynGDAy8aUkrEw==
+  dependencies:
+    deepmerge "^4.3.1"
 
 "@liangskyli/routing-controllers-openapi@^0.7.2":
   version "0.7.2"
@@ -2774,6 +2788,15 @@ axios@^1.6.7:
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
+axios@^1.6.8:
+  version "1.6.8"
+  resolved "https://registry.npmmirror.com/axios/-/axios-1.6.8.tgz#66d294951f5d988a00e87a0ffb955316a619ea66"
+  integrity sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==
+  dependencies:
+    follow-redirects "^1.15.6"
+    form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
+
 babel-jest@^29.4.3:
   version "29.5.0"
   resolved "https://registry.npmmirror.com/babel-jest/-/babel-jest-29.5.0.tgz#3fe3ddb109198e78b1c88f9ebdecd5e4fc2f50a5"
@@ -3675,7 +3698,7 @@ deep-equal@~1.0.1:
   resolved "https://registry.npmmirror.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
   integrity sha512-bHtC0iYvWhyaTzvV3CZgPeZQqCOBGyGsVV7v4eevpdkLHfiSrXUdBG+qAuSz4RI70sszvjQ1QSZ98An1yNwpSw==
 
-deepmerge@^4.2.2:
+deepmerge@^4.2.2, deepmerge@^4.3.1:
   version "4.3.1"
   resolved "https://registry.npmmirror.com/deepmerge/-/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
@@ -4484,6 +4507,11 @@ follow-redirects@^1.15.4:
   version "1.15.5"
   resolved "https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.15.5.tgz#54d4d6d062c0fa7d9d17feb008461550e3ba8020"
   integrity sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw==
+
+follow-redirects@^1.15.6:
+  version "1.15.6"
+  resolved "https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
+  integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
 
 for-each@^0.3.3:
   version "0.3.3"

@@ -1,3 +1,3 @@
 export default {
-  '/api/a': { a: 'aaa' },
+  '/api/a': { retCode: 0, retMsg:'retMsg',data:{a: 'aaa'} },
 };
