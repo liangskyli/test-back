@@ -2,7 +2,12 @@ import type { IGenMockDataOpts } from '@liangskyli/http-mock-gen';
 
 const config: IGenMockDataOpts = {
   mockDir: './genHttpMock',
-  openapiPath: './src/openapi/openapiv3-example.json',
+  //openapiPath: './src/openapi/openapiv3-example.json',
+  openapiPath: new URL(
+    './openapi/openapiv3-example.json',
+    // @ts-ignore
+    import.meta.url,
+  ),
   jsonSchemaFakerOptions: {
     minItems: 1,
     maxItems: 1,
