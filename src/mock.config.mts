@@ -1,10 +1,14 @@
-import path from 'path';
+import path from 'node:path';
+import { fileURLToPath } from "node:url";
+
+const curDirName = path.dirname(fileURLToPath(import.meta.url));
+
 
 export default {
-  mockDir: path.join(__dirname, '../genHttpMock/'),
+  mockDir: path.join(curDirName, '../genHttpMock/'),
   port: 8002,
   socketConfig: {
-    enable: true,
+    enable: false,
     opts: {
       path: '/socket.io/',
       cors: {

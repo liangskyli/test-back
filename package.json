@@ -1,14 +1,14 @@
 {
   "scripts": {
     "start": "umi dev",
-    "mock": "node -r ts-node/register src/index.ts",
-    "mock2": "node -r ts-node/register src/server.js",
-    "mock-cli": "mock-server -c ./src/mock.config.ts",
-    "mock:middleware": "node -r ts-node/register src/middleware.ts",
-    "http-mock-code-gen": "http-mock-gen -c ./src/http.mock.config.cli.ts",
-    "grpc-mock-code-gen-cli": "grpc-mock code-gen -c ./src/mock.config.cli.ts",
-    "grpc-mock-server-cli": "grpc-mock server-start -c ./src/mock.config.cli.ts",
-    "gen-ts": "openapi-gen-ts",
+    "mock": "tsx src/index.ts",
+    "mock2": "tsx src/server.js",
+    "mock-cli": "mock-server -c src/mock.config.mts",
+    "mock:middleware": "tsx src/middleware.mts",
+    "http-mock-code-gen": "http-mock-gen -c src/http.mock.config.cli.mts",
+    "grpc-mock-code-gen-cli": "grpc-mock code-gen -c src/mock.config.cli.mts",
+    "grpc-mock-server-cli": "grpc-mock server-start -c src/mock.config.cli.mts",
+    "gen-ts": "openapi-gen-ts -c request.config.mts",
     "openapi": "gen-openapi",
     "update:deps": "yarn upgrade-interactive --latest"
   },
@@ -23,10 +23,10 @@
     "umi": "^4.0.68"
   },
   "devDependencies": {
-    "@liangskyli/grpc-mock": "^6.0.0-beta.0",
-    "@liangskyli/http-mock-gen": "^6.0.0-beta.0",
-    "@liangskyli/mock": "^6.0.0-beta.0",
-    "@liangskyli/openapi-gen-ts": "^4.0.1",
+    "@liangskyli/grpc-mock": "^7.0.0-beta.1",
+    "@liangskyli/http-mock-gen": "^7.0.0-beta.1",
+    "@liangskyli/mock": "^7.0.0-beta.1",
+    "@liangskyli/openapi-gen-ts": "^5.0.0-beta.0",
     "@liangskyli/routing-controllers-openapi": "^0.8.2",
     "@types/express": "^5.0.2",
     "@types/mockjs": "^1.0.6",
@@ -37,6 +37,7 @@
     "mockjs": "^1.1.0",
     "prettier": "^3.1.0",
     "ts-node": "^10.7.0",
+    "tsx": "^4.20.6",
     "typescript": "^5.0.4"
   }
 }
