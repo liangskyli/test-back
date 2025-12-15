@@ -9,12 +9,12 @@
     "grpc-mock-code-gen-cli": "grpc-mock code-gen -c src/mock.config.cli.mts",
     "grpc-mock-server-cli": "grpc-mock server-start -c src/mock.config.cli.mts",
     "gen-ts": "openapi-gen-ts -c request.config.mts",
-    "openapi": "gen-openapi",
+    "openapi": "gen-openapi -c openapi.config.mts",
     "update:deps": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.13.4",
-    "@liangskyli/axios-request": "^0.1.0",
+    "@liangskyli/axios-request": "^0.2.2",
     "antd": "^5.4.7",
     "axios": "^1.9.0",
     "react": "^18.2.0",
@@ -23,11 +23,11 @@
     "umi": "^4.0.68"
   },
   "devDependencies": {
-    "@liangskyli/grpc-mock": "^7.0.0-beta.1",
-    "@liangskyli/http-mock-gen": "^7.0.0-beta.1",
-    "@liangskyli/mock": "^7.0.0-beta.1",
-    "@liangskyli/openapi-gen-ts": "^5.0.0-beta.0",
-    "@liangskyli/routing-controllers-openapi": "^0.8.2",
+    "@liangskyli/grpc-mock": "^7.0.1-beta.0",
+    "@liangskyli/http-mock-gen": "^7.0.1-beta.0",
+    "@liangskyli/mock": "^7.0.1-beta.0",
+    "@liangskyli/openapi-gen-ts": "^5.0.2",
+    "@liangskyli/routing-controllers-openapi": "^0.9.2",
     "@types/express": "^5.0.2",
     "@types/mockjs": "^1.0.6",
     "@types/react": "^18.2.6",
