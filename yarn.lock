@@ -1257,37 +1257,37 @@
   dependencies:
     "@liangskyli/request" "0.2.2"
 
-"@liangskyli/grpc-mock@^7.0.1-beta.0":
-  version "7.0.1-beta.0"
-  resolved "https://registry.npmmirror.com/@liangskyli/grpc-mock/-/grpc-mock-7.0.1-beta.0.tgz#bb1fe7bd1960dce923c4be18503dc4452e0fb461"
-  integrity sha512-c89o9uqlNBIxfukgTh0oAToQl/MPptwdykQhLxGXXH27gjTu97OAx+s996wgm5tHpVEtnyUJZ56pa19Zaa8qQg==
+"@liangskyli/grpc-mock@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.npmmirror.com/@liangskyli/grpc-mock/-/grpc-mock-7.0.1.tgz#6ae197c73e8175c510999da0567e5504a0e24d16"
+  integrity sha512-Vn11XlfRlV2zOdulZ7AY7hvqNb2WbzKz7D0C0Wrglz2WpJbOLvqW5StRG6wUwR8qVydeKqHYe4b+9SIh0gjvhA==
   dependencies:
     "@grpc/proto-loader" "^0.8.0"
-    "@liangskyli/utils" "7.0.1-beta.0"
+    "@liangskyli/utils" "7.0.1"
     commander "^13.1.0"
     cross-spawn "^7.0.6"
     nodemon "^3.1.11"
     protobufjs "^7.5.4"
 
-"@liangskyli/http-mock-gen@^7.0.1-beta.0":
-  version "7.0.1-beta.0"
-  resolved "https://registry.npmmirror.com/@liangskyli/http-mock-gen/-/http-mock-gen-7.0.1-beta.0.tgz#739a5180b2421ef22df66444b161a3383678b979"
-  integrity sha512-CkKg57/yPtL4SL7rIqlgf9Y8LDCfepfcAO4YkgjArG1gS55boGa/jytHdCf5L8j9J0SKm1qB67PyvZqDBx7nWA==
+"@liangskyli/http-mock-gen@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.npmmirror.com/@liangskyli/http-mock-gen/-/http-mock-gen-7.0.1.tgz#9d567f428c9e7801e6d71107625524f350aa3f10"
+  integrity sha512-/xrryGPNuTC2CG8oeDCAIBOSoYOvV6DX8JyVt4u8pUOzkaKlYtlQEx/iJRkQy7Vx85th277e1d1la+eYcMMU3w==
   dependencies:
     "@liangskyli/openapi-gen-ts" "^5.0.2"
-    "@liangskyli/utils" "7.0.1-beta.0"
+    "@liangskyli/utils" "7.0.1"
     "@types/express" "^5.0.2"
     axios "^1.7.9"
     commander "^13.1.0"
     express "^5.1.0"
     json-schema-faker "^0.5.8"
 
-"@liangskyli/mock@^7.0.1-beta.0":
-  version "7.0.1-beta.0"
-  resolved "https://registry.npmmirror.com/@liangskyli/mock/-/mock-7.0.1-beta.0.tgz#0a8e69e6ee1303ebbcbcbdd2896a1a0b6466698c"
-  integrity sha512-WL1YRuEwyxYDcGGUXz8Pggz8VQTWHl56hoYS/4hAc/fVrM8ihAD/pRrDi7yeydPLVt5rzXVs4RUw065z1JGVRg==
+"@liangskyli/mock@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.npmmirror.com/@liangskyli/mock/-/mock-7.0.1.tgz#42073abc10eb5d9cec3631b7507587dfd730c531"
+  integrity sha512-puJUunlae2+V6ETnSWDv96c0R0HsuqfRIUcFEEthDaOJzY+8PGk3sfrQwl8/1AoC9np/RxoD/av0W3uxqPu4hg==
   dependencies:
-    "@liangskyli/utils" "7.0.1-beta.0"
+    "@liangskyli/utils" "7.0.1"
     "@types/express" "^5.0.0"
     body-parser "^2.2.0"
     chokidar "^4.0.1"
@@ -1342,10 +1342,10 @@
     signale "^1.4.0"
     tsx "^4.20.6"
 
-"@liangskyli/utils@7.0.1-beta.0":
-  version "7.0.1-beta.0"
-  resolved "https://registry.npmmirror.com/@liangskyli/utils/-/utils-7.0.1-beta.0.tgz#46e9f8bee98eaa5a751bbbf835e657b6396957cc"
-  integrity sha512-hQsF/PHbSMUREmjD5R4AxStDG6VJgqzYX1HhsnflbONlL1YmEyntQlvcMbkF8hfBKymPgwzWmA/Gx0yUn+Zz5w==
+"@liangskyli/utils@7.0.1":
+  version "7.0.1"
+  resolved "https://registry.npmmirror.com/@liangskyli/utils/-/utils-7.0.1.tgz#7944145ab5450cd90b34a7f225732472e9797490"
+  integrity sha512-sSXMXPX64xclHF0GtX6W7LofNW48Rw6in9EruayUNGpg8SBGrDXz4vkwWpDfY1/akD0xMSRV/NyAT2y2NvWSjQ==
   dependencies:
     "@types/fs-extra" "^11.0.4"
     "@types/lodash" "^4.17.17"
@@ -2702,7 +2702,16 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.npmmirror.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-axios@^1.7.9, axios@^1.9.0:
+axios@^1.13.2:
+  version "1.13.2"
+  resolved "https://registry.npmmirror.com/axios/-/axios-1.13.2.tgz#9ada120b7b5ab24509553ec3e40123521117f687"
+  integrity sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==
+  dependencies:
+    follow-redirects "^1.15.6"
+    form-data "^4.0.4"
+    proxy-from-env "^1.1.0"
+
+axios@^1.7.9:
   version "1.9.0"
   resolved "https://registry.npmmirror.com/axios/-/axios-1.9.0.tgz#25534e3b72b54540077d33046f77e3b8d7081901"
   integrity sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==
@@ -4008,6 +4017,16 @@ es-set-tostringtag@^2.0.1:
     has "^1.0.3"
     has-tostringtag "^1.0.0"
 
+es-set-tostringtag@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz#f31dbbe0c183b00a6d26eb6325c810c0fd18bd4d"
+  integrity sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==
+  dependencies:
+    es-errors "^1.3.0"
+    get-intrinsic "^1.2.6"
+    has-tostringtag "^1.0.2"
+    hasown "^2.0.2"
+
 es-shim-unscopables@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/es-shim-unscopables/-/es-shim-unscopables-1.0.0.tgz#702e632193201e3edf8713635d083d378e510241"
@@ -4496,6 +4515,17 @@ form-data@^4.0.0:
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
+form-data@^4.0.4:
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/form-data/-/form-data-4.0.5.tgz#b49e48858045ff4cbf6b03e1805cebcad3679053"
+  integrity sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    es-set-tostringtag "^2.1.0"
+    hasown "^2.0.2"
+    mime-types "^2.1.12"
+
 format-util@^1.0.3:
   version "1.0.5"
   resolved "https://registry.npmmirror.com/format-util/-/format-util-1.0.5.tgz#1ffb450c8a03e7bccffe40643180918cc297d271"
@@ -4610,7 +4640,7 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.1.3, get-intrinsic@
     has "^1.0.3"
     has-symbols "^1.0.3"
 
-get-intrinsic@^1.2.5, get-intrinsic@^1.3.0:
+get-intrinsic@^1.2.5, get-intrinsic@^1.2.6, get-intrinsic@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmmirror.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz#743f0e3b6964a93a5491ed1bffaae054d7f98d01"
   integrity sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==
@@ -4815,6 +4845,13 @@ has-tostringtag@^1.0.0:
   integrity sha512-kFjcSNhnlGV1kyoGk7OXKSawH5JOb/LzUc5w9B02hOTO0dfFRjbHQKvg1d6cf3HbeUmtU9VbbV3qzZ2Teh97WQ==
   dependencies:
     has-symbols "^1.0.2"
+
+has-tostringtag@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz#2cdc42d40bef2e5b4eeab7c01a73c54ce7ab5abc"
+  integrity sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==
+  dependencies:
+    has-symbols "^1.0.3"
 
 has@^1.0.3:
   version "1.0.3"
